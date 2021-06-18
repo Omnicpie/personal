@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Ryan Anderson</title>
+		<meta name="description" content="Ryan Anderson, Full-stack Web Developer from the UK.">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="icon" href="Content/favi.png" type="image/gif">
+		<link href="fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet"> 
+		<!--[if lt IE 9]>
+		<script src="script/html5shiv.min.js"></script>
+		<![endif]-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="stylesheet" href="style/main.css" />
+		<style>
+		.title-holder {
+			display:flex;
+			font-weight: 1000;
+			color: white;
+			font-family: "Lucida Console", "Courier New", monospace;
+			margin: auto;
+		}
+		.title-holder:after{
+			content: ".";
+			font-size:70px;
+			white-space: nowrap;
+			display: flex;
+			line-height: 0.2;
+			color: #320064;
+		}
+		.title {
+			font-size: 30px;
+			width: 6%;
+			overflow: hidden;
+			white-space: nowrap;
+			display:block;
+			animation: typewriter 6s steps(8) infinite, blinking-cursor 0.8s infinite;
+			animation-fill-mode: forwards;
+			animation-delay: 5s;
+		}
+		
+		@keyframes typewriter {
+			0% { width:6%}
+			5% { width:6%}
+			10% { width:6%}
+			15% { width: 30%; }
+			25% { width: 70% }
+			48% { width: 100% }
+			50% { width: 100% }
+			55% { width: 100% }
+			60% { width: 100% }
+			75% { width: 70%; }
+			85% { width: 30%; }
+			100% { width: 6%; }
+		}
+		
+		@keyframes blinking-cursor {
+			from { border-color: transparent }
+			to { border-color: #f9d566}
+		}
+		</style>
+	</head>
+	<body>
+		<section class="panel home" data-section-name="home">
+            <video autoplay loop muted>
+				<source src="style/video.mp4" type="video/mp4">
+			</video>
+			<div class="inner">
+				<div class="vertical-center">
+                    <img src="Content/favi.png" class="fade" alt="logo">
+					<div style="display: flex;">
+						<span class="title-holder">
+							<span class="title">Ryan Anderson</span>
+						</span>
+					</div>
+					<p class="fade">Full-stack Website Developer.</p>
+				</div>
+			</div>
+
+		</section>
+		<section class="panel about" data-section-name="about">
+			<div class="inner">
+				<div class="vertical-center">
+					<h2 style="margin-bottom: 1%;text-align: left; padding-left: 10pt;">Me.</h2>
+					<img src="me.jpg" class="small" style="margin-right: 35pt;">
+					<p style="text-align: left;">Hi, I'm Ryan, a Full-stack Developer and student from the UK. I started making websites in 2015 initially using software like wordpress and adobe muse, from there i moved to simple HTML and CSS. <Br/><br/>In recent years I've had experience on projects using react and nodejs to the point now I feel very competent in my skills as a Developer.</p>
+                    <br/><br/><br/><br/><br/><br/><a class="linkbut">View CV</a>
+				</div>
+			</div>
+		</section>
+		<section class="panel projects" data-section-name="projects">
+			<div class="inner">
+				<div class="vertical-center" style="display: flex;justify-content: center;flex-direction: column;">
+                    <h2 style="margin-bottom: 15px;">Past Projects</h2>
+                    <div class="cont" style="display: flex;">
+                        <a class="casestudies" href="http://www.linney.com/" target="_blank" >
+                            <div class="container">
+                                <img src="Content/linney-group.jpg" class="image">
+                                <div class="overlay" style="background-color: #262628;">
+                                    <img src="Content/Logo.png" alt="Logo" class="overlayimage" style=" width:70%;">
+                                </div>
+                            </div>
+                        <a  class="casestudies" href="quarrydale project.html">
+                            <div class="container">
+                                <img src="Content/Quarrydale-34.jpg" alt="Avatar" class="image">
+                                <div class="overlay" style="background-color: #03385A;">
+                                    <img src="Content/Untitled-4.png" alt="Logo" class="overlayimage" style="width: 15%;margin-top: 20%;">
+                                </div>
+                            </div>
+                        </a>	
+                        <a  class="casestudies" href="https://unilife.ddns.net/" target="_blank">
+                            <div class="container">
+                                <img src="Content/unlifebg.jpg" alt="Avatar" class="image">
+                                <div class="overlay" style="background-color: #303036;">
+                                    <img src="Content/unilife.png" alt="Logo" class="overlayimage" style="width: 60%;">	
+                                </div>
+                            </div>
+                        </a>
+                        <a  class="casestudies" href="http://www.lostriders.co.uk/" target="_blank">
+                            <div class="container">
+                                <img src="Content/prom 2017 401.JPG" alt="Avatar" class="image">
+                                <div class="overlay" style="background-color: #2d3238;">
+                                    <img src="Content/newlr.png" alt="Logo" class="overlayimage" style="width: 34%;">	
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <br/><br/><a href="projects" class="linkbut" style="margin: auto;margin-top: 10pt;">View More</a>
+				</div>
+			</div>
+		</section>
+		<section class="panel contact" data-section-name="contact">
+			<div class="inner">
+				<div class="vertical-center">
+					<p>You can contact me here..</p>
+					<p>ryananderson1999@hotmail.co.uk</p>
+					<a href="https://www.linkedin.com/in/ryan-anderson-666315196/" class="socials" target="_blank"><i class="fab fa-linkedin socials"></i></a>
+					<a href="https://twitter.com/PiemanOW" class="socials" target="_blank"><i class="fab fa-twitter socials"></i></a>
+					<a href="https://github.com/Omnicpie" class="socials" target="_blank"><i class="fab fa-github socials"></i></a>
+				</div>
+			</div>
+		</section>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="jquery.scrollify.js"></script>
+		<script src="script/main.js"></script>
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+        <script>
+            $(".fade").hide(0).delay(100).fadeIn(1400)
+        </script>
+	</body>
+</html>

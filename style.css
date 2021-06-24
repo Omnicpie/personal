@@ -189,6 +189,9 @@
 		display: block;
 		margin:auto;
 	}
+	p {
+		font-size: 3em;
+	}
 	.image {
 		display: block;
 		width: 100%;

@@ -34,6 +34,11 @@ $(function() {
 
       */
       $(".pagination a").on("click",$.scrollify.move);
+      $(".scroll,.scroll-btn").click(function(e) {
+        e.preventDefault();
+    
+        $.scrollify.next();
+      });
     }
   });
 });

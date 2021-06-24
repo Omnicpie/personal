@@ -131,7 +131,7 @@ h2 + p {
   transform: translateY(-50%);
 
 	font-size:1.4em;
-	z-index: 9999;
+	z-index: 10;
 }
 .pagination a {
 	display:block;

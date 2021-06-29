@@ -268,7 +268,9 @@
 		align-content: left;
 		float: center;
 	}
-	
+	.mob-cut{
+		display: none !important;
+	}
 	.maintext{
 		text-align: center-left;
 		color: white;

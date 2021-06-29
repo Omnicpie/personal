@@ -43,3 +43,50 @@ body{
     margin: auto 0 auto auto;
     margin-right: 5pt;
 }
+.project-link{
+    width:100%;
+    margin-bottom: 10pt;
+    text-decoration: none;
+    background-color: var(--bg-1);
+    color: var(--font);
+}
+.project{
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    padding: 5pt;
+    border: 1px solid #12122b88;
+    margin-bottom: 10pt;
+}
+.project-img{
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin: 0 5pt 0 0;
+}
+.project-info{
+    display: flex;
+    flex-direction: column;
+}
+.project-link:hover, .project:hover{
+    background-color: var(--bg-2) !important;
+    color: var(--font);
+}
+.project-date{
+    font-size: 10pt;
+
+}
+.project-desc{
+    font-size: 14pt;
+}
+@media (min-width:1025px){
+    .content{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (max-width:1024px){
+    .content{
+        width: 100%;
+    }
+}

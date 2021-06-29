@@ -6,6 +6,7 @@
 	--bg-1: #03030b;
 	--accent-1: #320064;
 	--font: #fff;
+	--bg-2: #070715;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }

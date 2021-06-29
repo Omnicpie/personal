@@ -1,0 +1,46 @@
+body{
+    background-color: var(--bg-1);
+}
+.nav{
+    height: 40pt;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--bg-2);
+    margin-bottom: 5pt;
+}
+.logo{
+    height: 30pt;
+    width: auto;
+    margin: auto auto auto 5pt;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--font);
+}
+.logo-img{
+    height: 30pt;
+    width: auto;
+    margin: auto auto auto 5pt;
+}
+.logo:hover{
+    color: var(--accent-1);
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--font);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 30pt;
+    margin: auto 0 auto auto;
+    font-size: 5pt;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto 0 auto auto;
+    margin-right: 5pt;
+}

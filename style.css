@@ -69,6 +69,7 @@
 		display:block;
 		margin:0;
 		float:left;
+		margin-right: 5pt;
 	}
 	a:visited.casestudies {
 		color: pink;
@@ -247,6 +248,7 @@
 		display:block;
 		margin:0;
 		float:left;
+		margin-right: 5pt;
 	}
 	a:visited.casestudies {
 		color: pink;

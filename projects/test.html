@@ -45,17 +45,21 @@
                         <h1>Test Project</h1> <hr style="border: 1px solid black;"/><br/><br/>
                         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
                         <p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</br><br/>
-                        <img loading="lazy"class="left-img" src="../Content/quarry.jpg" style="clear:right">
+                        <img loading="lazy"class="left-img" src="../Content/Capture.PNG" style="clear:right" onclick="enlarge(event)">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi nisl, malesuada rutrum neque eu, aliquet bibendum tellus. In vulputate eget ligula quis scelerisque. Quisque dictum est libero, eu finibus urna convallis nec. Sed sollicitudin ut lacus ac imperdiet. Cras commodo arcu eros, a maximus mauris hendrerit sed. Sed lobortis, erat et egestas convallis, enim dui aliquet mauris, eget pellentesque urna magna in lectus. Nunc elementum malesuada ex. Vestibulum arcu nulla, tempus sit amet aliquam non, fermentum nec sem. Suspendisse potenti. Vivamus rutrum neque mollis, pulvinar justo non, fringilla metus. Sed id congue orci. Maecenas dapibus dictum placerat. Quisque dapibus quis sem at luctus. Ut non sodales quam. Ut arcu lacus, commodo nec tristique eget, vulputate a ex. Sed eleifend fermentum rutrum.
                             In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam vulputate quam eu condimentum congue. Vivamus maximus eros eget nunc malesuada porta. Morbi laoreet ante quis ligula dictum ultrices. In euismod, purus at fringilla convallis, ex lorem lobortis diam, eget varius orci leo et erat. Donec bibendum volutpat libero.<br/>
                             Morbi eget convallis erat. Aliquam aliquet pellentesque metus et consequat. Sed pulvinar mauris id tincidunt suscipit. Vestibulum lacinia lectus vel tellus laoreet auctor. Donec dignissim nisl ipsum. Vivamus id ipsum odio. Aliquam sagittis est sed leo hendrerit posuere. Etiam dolor elit, fringilla consectetur congue eu, molestie quis velit. Phasellus iaculis nibh ac tellus finibus, non ornare arcu tristique. Vestibulum quis lorem sit amet nibh tristique commodo a sed est. Mauris volutpat cursus urna, ut aliquet orci. Ut gravida auctor risus eu ultrices. Duis commodo ligula sit amet suscipit fringilla. Morbi iaculis id quam sit amet tincidunt.
-                            <img loading="lazy" class="left-img" src="../Content/quarry.jpg" style="clear:right">
+                            <img loading="lazy" class="left-img" src="../Content/quarry.jpg" style="clear:right" onclick="enlarge(event)">
                             Nam aliquam nisl nec aliquet pretium. Sed risus felis, euismod eu justo et, mattis ullamcorper mauris. Mauris interdum maximus eros, vel mattis leo maximus non. Nulla non consectetur velit. In elementum ligula purus, ac faucibus risus varius id. Nunc convallis justo sit amet risus aliquam, facilisis congue ante tincidunt. Pellentesque auctor euismod posuere. Quisque ac aliquam dolor, quis auctor orci.
                             Nullam a mi ut lacus suscipit fermentum. Ut imperdiet, eros ac pretium volutpat, nisl augue laoreet quam, in egestas ligula nunc at tortor. Aliquam tempor magna non nibh imperdiet, in dapibus velit finibus. Praesent imperdiet in odio et sagittis. Pellentesque nec aliquam nulla. Vestibulum pellentesque, ante vitae consectetur commodo, mauris augue pretium enim, a sollicitudin erat odio ac odio. Praesent elementum ipsum vel lobortis condimentum. Phasellus fermentum mauris ut venenatis vulputate. Proin ornare sagittis nisi, in aliquam augue dictum vel. Maecenas sed imperdiet lacus. Sed at est posuere, semper nisl eu, cursus ligula. Integer vel dui sed dolor mollis venenatis et sed mauris. Aliquam ac elit ac sem mollis pharetra eget id ex.
                         </p>	
                     </div>
                 </main>  
             </article>
+        </div>
+        <div id="modal" class="modal-hidden">
+            <i class="fas fa-times exit-modal" onclick="closeModal(event)"></i>
+            <img id="modal-img">
         </div>
     </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -70,4 +74,5 @@
                 });
             });
     </script>
+    <script src="../script/article.js"></script>
 </html>

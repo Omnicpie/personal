@@ -58,3 +58,8 @@ footer a{color: #ccc;}
 @media (orientation: portrait){
     .zoom img{height: 100%;}
 }
+.left-img{
+    width: 30%;
+    float: left;
+    margin-right: 4pt;
+}

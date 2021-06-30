@@ -36,6 +36,12 @@ footer a{color: #ccc;}
 	/* Thanks  @bastian_fiessinger. Use when activating blur effect:*/
 	will-change: -webkit-filter, filter, transform; 
 }
+#dt{
+    display: inline;
+}
+#mob{
+    display: none;
+}
 @media (max-width: 667px) {
 	h1{
 		font-size: 1.8rem;
@@ -52,7 +58,13 @@ footer a{color: #ccc;}
 	.zoom{
 		overflow: hidden;
 		padding-bottom: 75%;
-	}
+    }
+    #mob{
+        display: block;
+    }
+    #dt{
+        display: none;
+    }
 
 }
 @media (orientation: portrait){

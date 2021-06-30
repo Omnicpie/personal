@@ -102,14 +102,21 @@ body{
 .project-desc{
     font-size: 14pt;
 }
+#dt,#mob{
+    display:inline
+}
 @media (min-width:1025px){
     .content{
         width: 80%;
         margin: auto;
+    }
+    #mob{
+        display: none;
     }
 }
 @media (max-width:1024px){
     .content{
         width: 100%;
     }
+    #dt{display:none}
 }

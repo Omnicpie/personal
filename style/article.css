@@ -55,3 +55,6 @@ footer a{color: #ccc;}
 	}
 
 }
+@media (orientation: portrait){
+    .zoom img{height: 100%;}
+}

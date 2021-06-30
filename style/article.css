@@ -33,8 +33,8 @@ footer a{color: #ccc;}
 	left: 50%;
     width: 100%;
 	transform: translateX(-50%);
-	/* Thanks  @bastian_fiessinger. Use when activating blur effect:
-	will-change: -webkit-filter, filter, transform; */
+	/* Thanks  @bastian_fiessinger. Use when activating blur effect:*/
+	will-change: -webkit-filter, filter, transform; 
 }
 @media (max-width: 667px) {
 	h1{

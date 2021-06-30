@@ -30,7 +30,7 @@
         <div class="content" style="width: 100%; margin:0;">
             <article>
                 <header class="zoom">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/927610/pkRkVCm.jpg">
+                    <img src="../Content/toppanel.jpg">
                 </header>
                 <main role="main">
                     <div class="breadcrumbs">
@@ -56,8 +56,8 @@
                 $(".zoom img").css({
                     transform: 'translate3d(-50%, -'+(scroll/100)+'%, 0) scale('+(100 + scroll/5)/100+')',
                     //Blur suggestion from @janwagner: https://codepen.io/janwagner/ in comments
-                    //"-webkit-filter": "blur(" + (scroll/200) + "px)",
-                    //filter: "blur(" + (scroll/200) + "px)"
+                    "-webkit-filter": "blur(" + (scroll/50) + "px)",
+                    filter: "blur(" + (scroll/50) + "px)"
                 });
             });
     </script>

@@ -76,6 +76,29 @@ body{
     font-size: 10pt;
 
 }
+.breadcrumbs{
+    font-size: 10pt;
+    margin-top: 5pt;
+    margin-left: 15pt;
+}
+.crumb{
+    display: inline;
+    text-decoration: none;
+    color:var(--font);
+}
+.crumb li{
+    display: inline;
+}
+.crumb li::before{
+    content: "/";
+}
+.crumb a{
+    color: var(--font);
+    text-decoration: none;
+}
+.crumb a:hover{
+    color:var(--accent-1);
+}
 .project-desc{
     font-size: 14pt;
 }

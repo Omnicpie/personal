@@ -63,6 +63,7 @@ body{
     width: 30%;
     height: auto;
     margin: 0 5pt 0 0;
+    max-height: 100px
 }
 .project-info{
     display: flex;

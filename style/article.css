@@ -42,6 +42,41 @@ footer a{color: #ccc;}
 #mob{
     display: none;
 }
+.link-site{
+    border: 5px solid var(--accent-1);
+    border-radius:5px;
+    box-shadow: 5px;
+    position: absolute;
+    top: 80%;
+    right: 70%;
+    color: var(--font);
+    padding: 5pt;
+    background-color: var(--accent-1);
+    font-size: 2em;
+    text-decoration: none;
+    overflow-wrap: normal;
+}
+.link-site:hover{
+    background-color: black;
+    border-color: black;
+}
+.bottom-link{
+    margin: auto;
+    color: var(--font);
+    padding: 5pt;
+    background-color: var(--accent-1);
+    font-size: 2em;
+    text-decoration: none;
+    overflow-wrap: normal;
+    border: 5px solid var(--accent-1);
+    border-radius:5px;
+    box-shadow: 5px;
+    display:table
+}
+.bottom-link:hover{
+    background-color: black;
+    border-color: black;
+}
 @media (max-width: 667px) {
 	h1{
 		font-size: 1.8rem;

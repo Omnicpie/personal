@@ -122,4 +122,9 @@ body{
         width: 100%;
     }
     #dt{display:none}
+    .project-img{
+        width: 20%;
+        min-width: 20%;
+        max-width: 20%;
+    }
 }

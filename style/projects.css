@@ -127,4 +127,8 @@ body{
         min-width: 20%;
         max-width: 20%;
     }
+    .project, .project-link{
+        max-width: 100%;
+        width: auto;
+    }
 }

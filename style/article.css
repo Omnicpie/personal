@@ -110,6 +110,11 @@ footer a{color: #ccc;}
     float: left;
     margin-right: 4pt;
 }
+.right-img{
+    width: 30%;
+    float: right;
+    margin-left: 4pt;
+}
 #modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */

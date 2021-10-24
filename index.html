@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
 		<link rel="stylesheet" href="style/main.css" />
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 		<style>
 		.title-holder {
 			display:flex;
@@ -22,43 +23,13 @@
 			color: white;
 			font-family: "Lucida Console", "Courier New", monospace;
 			margin: auto;
-		}
-		.title-holder:after{
-			content: ".";
-			font-size:70px;
-			white-space: nowrap;
-			display: flex;
-			line-height: 0.2;
-			color: #320064;
-		}
+		} 
 		.title {
 			font-size: 30px;
-			width: 6%;
 			overflow: hidden;
 			white-space: nowrap;
 			display:block;
-			animation: typewriter 6s steps(8) infinite, blinking-cursor 0.8s infinite;
-			animation-fill-mode: forwards;
-			animation-delay: 5s;
-		}
-		@keyframes typewriter {
-			0% { width:6%}
-			5% { width:6%}
-			10% { width:6%}
-			15% { width: 30%; }
-			25% { width: 70% }
-			48% { width: 100% }
-			50% { width: 100% }
-			55% { width: 100% }
-			60% { width: 100% }
-			75% { width: 70%; }
-			85% { width: 30%; }
-			100% { width: 6%; }
-		}
-		
-		@keyframes blinking-cursor {
-			from { border-color: transparent }
-			to { border-color: #f9d566}
+
 		}
 		</style>
 	</head>
@@ -72,7 +43,8 @@
                     <img loading="lazy" src="Content/mainLogo.png" class="fade" alt="logo" style="height: 100px;">
 					<div style="display: flex;">
 						<span class="title-holder">
-							<span class="title">Ryan Anderson</span>
+							<span class='title'></span>
+						<span class="typed-cursor">.</span>
 						</span>
 					</div>
 					<p class="fade">Full-stack Website Developer.</p>
@@ -159,6 +131,39 @@
         <script>
             $(".fade").hide(0).delay(100).fadeIn(1400)
         </script>
+		<script>
+			var options = {
+				strings: ['Ryan Anderson'],
+				typeSpeed: 100,
+				loop: true,
+				backDelay: 2600,
+				showCursor: false
+			};
+
+			var typed = new Typed('.title', options);
+		</script>
+		<style>
+			.typed-cursor{
+				font-size:70px;
+				white-space: nowrap;
+				display: flex;
+				line-height: 0.2;
+				color: #320064;
+			}
+			.typed-cursor.typed-cursor--blink{
+			animation: typedjsBlink 0.7s infinite;
+			-webkit-animation: typedjsBlink 0.7s infinite;
+					animation: typedjsBlink 0.7s infinite;
+			}
+			@keyframes typedjsBlink{
+			50% { opacity: 0.0; }
+			}
+			@-webkit-keyframes typedjsBlink{
+			0% { opacity: 1; }
+			50% { opacity: 0.0; }
+			100% { opacity: 1; }
+			}
+		</style>
 		<script>
 			function hideTemp() {
 				let x = document.getElementsByClassName("modal-container")[0];

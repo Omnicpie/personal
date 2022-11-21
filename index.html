@@ -1,175 +1,294 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Ryan Anderson</title>
-		<meta name="description" content="Ryan Anderson, Full-stack Web Developer from the UK.">
-		<meta name="keywords" content="Web, Developer, Full Stack, UK, React, JavaScript, Web Development, Web Developer, Web Design, Website Development, Website Developer, Website Design">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="icon" href="Content/mainLogo.png" type="image/gif">
-		<link href="fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet"> 
-		<!--[if lt IE 9]>
-		<script src="script/html5shiv.min.js"></script>
-		<![endif]-->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
-		<link rel="stylesheet" href="style/main.css" />
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-		<style>
-		.title-holder {
-			display:flex;
-			font-weight: 1000;
-			color: white;
-			font-family: "Lucida Console", "Courier New", monospace;
-			margin: auto;
-		} 
-		.title {
-			font-size: 30px;
-			overflow: hidden;
-			white-space: nowrap;
-			display:block;
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ryan Anderson</title>
+    <meta
+      name="description"
+      content="Ryan Anderson, Full-stack Web Developer from the UK."
+    />
+    <meta
+      name="keywords"
+      content="Web, Developer, Full Stack, UK, React, JavaScript, Web Development, Web Developer, Web Design, Website Development, Website Developer, Website Design"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="Content/mainLogo.png" type="image/gif" />
+    <link href="fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+      <script src="script/html5shiv.min.js"></script>
+    <![endif]-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:300"
+    />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <style>
+      .title-holder {
+        display: flex;
+        font-weight: 1000;
+        color: white;
+        font-family: "Lucida Console", "Courier New", monospace;
+        margin: auto;
+      }
+      .title {
+        font-size: 30px;
+        overflow: hidden;
+        white-space: nowrap;
+        display: block;
+      }
+    </style>
+  </head>
+  <body style="max-width: 100%; overflow: hidden">
+    <section class="panel home" data-section-name="home">
+      <video autoplay loop muted>
+        <source src="style/video.mp4" type="video/mp4" />
+      </video>
+      <div class="inner">
+        <div class="vertical-center">
+          <img
+            loading="lazy"
+            src="Content/mainLogo.png"
+            class="fade"
+            alt="logo"
+            style="height: 100px"
+          />
+          <div style="display: flex">
+            <span class="title-holder">
+              <span class="title"></span>
+              <span class="typed-cursor">.</span>
+            </span>
+          </div>
+          <p class="fade">Full-stack Website Developer.</p>
+          <a class="scroll" href="#about"> Scroll for more</a>
+        </div>
+      </div>
+    </section>
+    <section class="panel about" data-section-name="about">
+      <div class="inner">
+        <div class="vertical-center">
+          <h2 style="margin-bottom: 1%; text-align: left; padding-left: 10pt">
+            Me.
+          </h2>
+          <img
+            loading="lazy"
+            src="me new 2022.jpg"
+            class="small"
+            style="margin-right: 35pt"
+          />
+          <p style="text-align: left">
+            Hi, I'm Ryan, a Full-stack Developer from the UK. I started making
+            websites in 2015 initially using software like wordpress and adobe
+            muse, from there i moved to simple HTML and CSS. <br /><br />In
+            recent years I've had experience on projects using react and nodejs
+            to the point now I feel very competent in my skills as a Developer.
+          </p>
+          <br /><br /><br /><br /><br /><br /><a class="linkbut"
+            >CV available on request</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="panel projects" data-section-name="projects">
+      <div class="inner">
+        <div
+          class="vertical-center"
+          style="display: flex; justify-content: center; flex-direction: column"
+        >
+          <h2 style="margin-bottom: 15px">Past Projects</h2>
+          <div class="cont" style="display: flex">
+            <a
+              class="casestudies"
+              href="https://bestbasket.ryananderson.uk/"
+              target="_blank"
+            >
+              <div class="container">
+                <img
+                  loading="lazy"
+                  src="./Content/toppanelbestbasket - Copy.jpg"
+                  class="image"
+                />
+                <div class="overlay" style="background-color: #262628">
+                  <img
+                    loading="lazy"
+                    src="Content/eshoplogolight.png"
+                    alt="Logo"
+                    class="overlayimage"
+                    style="width: 70%"
+                  />
+                </div>
+              </div>
+            </a>
+            <a class="casestudies" href="./projects/personal">
+              <div class="container">
+                <img
+                  loading="lazy"
+                  src="Content/topmobPersonal2021 - Copy.jpg"
+                  alt="Avatar"
+                  class="image"
+                />
+                <div class="overlay" style="background-color: var(--bg-1)">
+                  <img
+                    loading="lazy"
+                    src="Content/mainLogo.png"
+                    alt="Logo"
+                    class="overlayimage"
+                    style="width: 15%; margin-top: 20%"
+                  />
+                </div>
+              </div>
+            </a>
+            <a
+              class="casestudies mob-cut"
+              href="https://unilife.ddns.net/"
+              target="_blank"
+            >
+              <div class="container">
+                <img
+                  loading="lazy"
+                  src="Content/unlifebg.jpg"
+                  alt="Avatar"
+                  class="image"
+                />
+                <div class="overlay" style="background-color: #303036">
+                  <img
+                    loading="lazy"
+                    src="Content/unilife.png"
+                    alt="Logo"
+                    class="overlayimage"
+                    style="width: 60%"
+                  />
+                </div>
+              </div>
+            </a>
+            <a
+              class="casestudies mob-cut"
+              href="http://www.lostriders.co.uk/"
+              target="_blank"
+            >
+              <div class="container">
+                <img
+                  loading="lazy"
+                  src="Content/prom 2017 401.JPG"
+                  alt="Avatar"
+                  class="image"
+                />
+                <div class="overlay" style="background-color: #2d3238">
+                  <img
+                    loading="lazy"
+                    src="Content/newlr.png"
+                    alt="Logo"
+                    class="overlayimage"
+                    style="width: 34%"
+                  />
+                </div>
+              </div>
+            </a>
+          </div>
+          <br />
+          <br />
+          <a
+            href="projects"
+            class="linkbut"
+            style="margin: auto; margin-top: 10pt"
+            >View More</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="panel contact" data-section-name="contact">
+      <div class="inner">
+        <div class="vertical-center">
+          <p>You can contact me here...</p>
+          <p>ryananderson1999@hotmail.co.uk</p>
+          <a
+            href="https://www.linkedin.com/in/ryan-anderson-666315196/"
+            class="socials"
+            target="_blank"
+            ><i class="fab fa-linkedin socials"></i
+          ></a>
+          <a href="https://twitter.com/OmnicPie" class="socials" target="_blank"
+            ><i class="fab fa-twitter socials"></i
+          ></a>
+          <a href="https://github.com/Omnicpie" class="socials" target="_blank"
+            ><i class="fab fa-github socials"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <div class="modal-container" style="display: none">
+      <div class="modal-content">
+        <div onclick="hideTemp()">
+          <i
+            class="fas fa-times socials"
+            style="float: right; cursor: pointer"
+          ></i>
+        </div>
+        <h1 style="overflow-wrap: normal">WARNING</h1>
+        <hr />
+        <br />
+        <p>This is a work in progress<br />Some aspects are incomplete</p>
+        <p style="font-size: small">
+          press <i class="fas fa-times" style="font-size: small"></i> to close
+          the Warning
+        </p>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.scrollify.js"></script>
+    <script src="script/main.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+      $(".fade").hide(0).delay(100).fadeIn(1400);
+    </script>
+    <script>
+      var options = {
+        strings: ["Ryan Anderson"],
+        typeSpeed: 100,
+        loop: true,
+        backDelay: 2600,
+        showCursor: false,
+      };
 
-		}
-		</style>
-	</head>
-	<body style="max-width:100%;overflow:hidden;">
-		<section class="panel home" data-section-name="home">
-            <video autoplay loop muted>
-				<source src="style/video.mp4" type="video/mp4">
-			</video>
-			<div class="inner">
-				<div class="vertical-center">
-                    <img loading="lazy" src="Content/mainLogo.png" class="fade" alt="logo" style="height: 100px;">
-					<div style="display: flex;">
-						<span class="title-holder">
-							<span class='title'></span>
-						<span class="typed-cursor">.</span>
-						</span>
-					</div>
-					<p class="fade">Full-stack Website Developer.</p>
-					<a class="scroll" href="#about"> Scroll for more</a>
-				</div>
-			</div>
-
-		</section>
-		<section class="panel about" data-section-name="about">
-			<div class="inner">
-				<div class="vertical-center">
-					<h2 style="margin-bottom: 1%;text-align: left; padding-left: 10pt;">Me.</h2>
-					<img loading="lazy" src="me.jpg" class="small" style="margin-right: 35pt;">
-					<p style="text-align: left;">Hi, I'm Ryan, a Full-stack Developer and student from the UK. I started making websites in 2015 initially using software like wordpress and adobe muse, from there i moved to simple HTML and CSS. <Br/><br/>In recent years I've had experience on projects using react and nodejs to the point now I feel very competent in my skills as a Developer.</p>
-                    <br/><br/><br/><br/><br/><br/><a class="linkbut">CV available on request</a>
-				</div>
-			</div>
-		</section>
-		<section class="panel projects" data-section-name="projects">
-			<div class="inner">
-				<div class="vertical-center" style="display: flex;justify-content: center;flex-direction: column;">
-                    <h2 style="margin-bottom: 15px;">Past Projects</h2>
-                    <div class="cont" style="display: flex;">
-                        <a class="casestudies" href="https://bestbasket.ryananderson.uk/" target="_blank" >
-                            <div class="container">
-                                <img loading="lazy" src="./Content/toppanelbestbasket - Copy.jpg" class="image">
-                                <div class="overlay" style="background-color: #262628;">
-                                    <img loading="lazy" src="Content/eshoplogolight.png" alt="Logo" class="overlayimage" style=" width:70%;">
-                                </div>
-                            </div>
-                        <a  class="casestudies" href="./projects/personal">
-                            <div class="container">
-                                <img loading="lazy" src="Content/topmobPersonal2021 - Copy.jpg" alt="Avatar" class="image">
-                                <div class="overlay" style="background-color: var(--bg-1);">
-                                    <img loading="lazy" src="Content/mainLogo.png" alt="Logo" class="overlayimage" style="width: 15%;margin-top: 20%;">
-                                </div>
-                            </div>
-                        </a>	
-                        <a  class="casestudies mob-cut" href="https://unilife.ddns.net/" target="_blank">
-                            <div class="container">
-                                <img loading="lazy" src="Content/unlifebg.jpg" alt="Avatar" class="image">
-                                <div class="overlay" style="background-color: #303036;">
-                                    <img loading="lazy" src="Content/unilife.png" alt="Logo" class="overlayimage" style="width: 60%;">	
-                                </div>
-                            </div>
-                        </a>
-                        <a  class="casestudies mob-cut" href="http://www.lostriders.co.uk/" target="_blank">
-                            <div class="container">
-                                <img loading="lazy" src="Content/prom 2017 401.JPG" alt="Avatar" class="image">
-                                <div class="overlay" style="background-color: #2d3238;">
-                                    <img loading="lazy" src="Content/newlr.png" alt="Logo" class="overlayimage" style="width: 34%;">	
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <br/><br/><a href="projects" class="linkbut" style="margin: auto;margin-top: 10pt;">View More</a>
-				</div>
-			</div>
-		</section>
-		<section class="panel contact" data-section-name="contact">
-			<div class="inner">
-				<div class="vertical-center">
-					<p>You can contact me here...</p>
-					<p>ryananderson1999@hotmail.co.uk</p>
-					<a href="https://www.linkedin.com/in/ryan-anderson-666315196/" class="socials" target="_blank"><i class="fab fa-linkedin socials"></i></a>
-					<a href="https://twitter.com/OmnicPie" class="socials" target="_blank"><i class="fab fa-twitter socials"></i></a>
-					<a href="https://github.com/Omnicpie" class="socials" target="_blank"><i class="fab fa-github socials"></i></a>
-				</div>
-			</div>
-		</section>
-		<div class="modal-container" style="display: none;">
-			<div class="modal-content">
-				<div onclick="hideTemp()"><i class="fas fa-times socials" style="float: right;cursor: pointer;"></i></div>
-				<h1 style="overflow-wrap: normal;">WARNING</h1>
-				<hr/><br/>
-				<P>This is a  work in progress<br/>Some aspects are incomplete</P>
-				<p style="font-size: small;">press <i class="fas fa-times" style="font-size: small;"></i> to close the Warning</p>
-			</div>
-		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="jquery.scrollify.js"></script>
-		<script src="script/main.js"></script>
-		<script async defer src="https://buttons.github.io/buttons.js"></script>
-        <script>
-            $(".fade").hide(0).delay(100).fadeIn(1400)
-        </script>
-		<script>
-			var options = {
-				strings: ['Ryan Anderson'],
-				typeSpeed: 100,
-				loop: true,
-				backDelay: 2600,
-				showCursor: false
-			};
-
-			var typed = new Typed('.title', options);
-		</script>
-		<style>
-			.typed-cursor{
-				font-size:70px;
-				white-space: nowrap;
-				display: flex;
-				line-height: 0.2;
-				color: #320064;
-			}
-			.typed-cursor.typed-cursor--blink{
-			animation: typedjsBlink 0.7s infinite;
-			-webkit-animation: typedjsBlink 0.7s infinite;
-					animation: typedjsBlink 0.7s infinite;
-			}
-			@keyframes typedjsBlink{
-			50% { opacity: 0.0; }
-			}
-			@-webkit-keyframes typedjsBlink{
-			0% { opacity: 1; }
-			50% { opacity: 0.0; }
-			100% { opacity: 1; }
-			}
-		</style>
-		<script>
-			function hideTemp() {
-				let x = document.getElementsByClassName("modal-container")[0];
-				x.className = "hidden";
-				
-			}
-		</script>
-	</body>
+      var typed = new Typed(".title", options);
+    </script>
+    <style>
+      .typed-cursor {
+        font-size: 70px;
+        white-space: nowrap;
+        display: flex;
+        line-height: 0.2;
+        color: #320064;
+      }
+      .typed-cursor.typed-cursor--blink {
+        animation: typedjsBlink 0.7s infinite;
+        -webkit-animation: typedjsBlink 0.7s infinite;
+        animation: typedjsBlink 0.7s infinite;
+      }
+      @keyframes typedjsBlink {
+        50% {
+          opacity: 0;
+        }
+      }
+      @-webkit-keyframes typedjsBlink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+    <script>
+      function hideTemp() {
+        let x = document.getElementsByClassName("modal-container")[0];
+        x.className = "hidden";
+      }
+    </script>
+  </body>
 </html>
